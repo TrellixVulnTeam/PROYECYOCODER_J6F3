@@ -1,0 +1,42 @@
+.btn {
+    background-color:#380938;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  
+           .btn:hover
+            {
+               opacity: 1;
+           }
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  
+              .hover {
+                   background-color: #555;
+                      }
+  
+  }
+
+.button2 {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #380938;
+  }
+  
+  
