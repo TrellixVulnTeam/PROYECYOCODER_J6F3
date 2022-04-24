@@ -202,9 +202,16 @@ h1 {
    width: 25%;
 }
 
-.content {
-   background-color: white;
+@mixin proyect ($color) {
+   background-color: $color;
    padding: 10px;
+}
+
+.content {
+   @include proyect(white );
+}
+.contentx{
+   @include proyect( #918391);
 }
 
 .container {
@@ -224,9 +231,8 @@ h1 {
 }
 
 .column-33 {
-   float: left;
+   @extend .column-66;
    width: 33.33333%;
-   padding: 20px;
 }
 
 .large-font {
