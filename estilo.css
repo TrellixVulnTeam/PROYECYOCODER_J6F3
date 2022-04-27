@@ -28,8 +28,9 @@ body, html {
   color: black;
   font-size: 4vw;
   font-weight: bold;
-  margin: 150px;
-  padding: 10px;
+  margin-top: 250px;
+  margin-bottom: 10px;
+  padding: 9px;
   text-align: right;
   position: relative;
   top: 50%;
@@ -41,7 +42,8 @@ body, html {
 .column1 {
   float: left;
   width: 25%;
-  padding: 0 5px; }
+  padding: 0 5px;
+  margin-bottom: 30px; }
 
 .row1 {
   margin: 0 -5px; }
@@ -120,9 +122,10 @@ input[type=text]:focus, input[type=password]:focus {
   color: grey; }
 
 .container2 {
-  position: relative;
   max-width: 800px;
-  margin: auto; }
+  margin-top: 100px;
+  margin-bottom: 40px;
+  margin-left: 300px; }
   .container2 .content1 {
     bottom: 0;
     background: black;
