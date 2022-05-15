@@ -6,7 +6,7 @@ $color-instagram:  #3f729b;
 $redes: (
         facebook: #3a5795, 
         whatsapp:  #00bb2d,
-        instagram: #3f729b ,
+        instagram: #3f729b,
 );
 
 $fa-whatsapp: map-get($map: $redes, $key: whatsapp);
